@@ -12,7 +12,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="icon" href="../images/app-icon.png">
     <title>All Orders</title>
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="css/helper.css" rel="stylesheet">
@@ -34,8 +34,7 @@ session_start();
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
             <div class="navbar-header">
                     <a class="navbar-brand" href="dashboard.php">
-                        
-                        <span><img src="images/icn.png" alt="homepage" class="dark-logo" /></span>
+                        <span><img src="../images/app-icon.png" alt="App Icon" style="height: 40px; width: auto;" /></span>
                     </a>
                 </div>
                 <div class="navbar-collapse">

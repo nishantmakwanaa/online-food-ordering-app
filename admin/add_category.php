@@ -50,7 +50,8 @@ if(isset($_POST['submit'] ))
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">   
+    <meta name="author" content="">
+    <link rel="icon" href="../images/app-icon.png">
     <title>Add Category</title>
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="css/helper.css" rel="stylesheet">
@@ -69,8 +70,7 @@ if(isset($_POST['submit'] ))
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
             <div class="navbar-header">
                     <a class="navbar-brand" href="dashboard.php">
-                        
-                        <span><img src="images/icn.png" alt="homepage" class="dark-logo" /></span>
+                        <span><img src="../images/app-icon.png" alt="App Icon" style="height: 40px; width: auto;" /></span>
                     </a>
                 </div>
                 <div class="navbar-collapse">

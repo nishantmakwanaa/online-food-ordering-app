@@ -33,6 +33,9 @@ if(isset($_POST['submit']))
 
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../images/app-icon.png">
   <title>Admin Login</title>
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -55,7 +58,7 @@ if(isset($_POST['submit']))
   </div>
 </div>
 <div class="form">
-  <div class="thumbnail"><img src="images/manager.png"/></div>
+  <div class="thumbnail"><img src="../images/app-icon.png" alt="App Icon" style="height: 40px; width: auto;" /></div>
   <span style="color:red;"><?php echo $message; ?></span>
    <span style="color:green;"><?php echo $success; ?></span>
   <form class="login-form" action="index.php" method="post">
