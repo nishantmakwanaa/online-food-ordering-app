@@ -2,8 +2,8 @@
 
 //main connection file for both admin & front end
 $servername = "localhost"; //server
-$username = "root"; //username
-$password = ""; //password
+$username = "nishant"; //username
+$password = "nishant"; //password
 $dbname = "onlinefoodphp";  //database
 
 // Create connection

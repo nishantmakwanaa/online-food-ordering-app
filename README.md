@@ -43,13 +43,12 @@ Database Name: onlinefoodphp
 
 # Admin Login Details
 
-Username: admin
+Username : admin
 
-Password: theterminalboy
+Password : admin123
 
 # User 
 
-user1
+Username : user
 
-123456789
-
+Password : 123456

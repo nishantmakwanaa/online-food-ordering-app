@@ -41,7 +41,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`adm_id`, `username`, `password`, `email`, `code`, `date`) VALUES
-(1, 'admin', '3e010d40e2644662ecc81fc395c38cef', 'admin@mail.com', '', '2023-01-31 11:11:57');
+(1, 'admin', '0192023a7bbd73250516f069df18b500', 'admin@mail.com', '', '2023-01-31 11:11:57');
 
 -- --------------------------------------------------------
 
@@ -193,7 +193,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`u_id`, `username`, `f_name`, `l_name`, `email`, `phone`, `password`, `address`, `status`, `date`) VALUES
-(7, 'user1', 'z', 'Prince', 'user1@mail.com', '+8801111111111', '25f9e794323b453885f5181f1b624d0b', 'Dhaka', 1, '2023-01-31 10:52:08');
+(7, 'user', 'user', 'user', 'user1@mail.com', '+8801111111111', 'e10adc3949ba59abbe56e057f20f883e', 'Dhaka', 1, '2023-01-31 10:52:08');
 
 -- --------------------------------------------------------
 
