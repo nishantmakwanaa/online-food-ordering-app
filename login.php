@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Login</title>
+  <link rel="icon" href="images/app-icon.png">
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
@@ -34,7 +35,9 @@
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/icn.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.php">
+  <img class="img-rounded" src="images/app-icon.png" alt="App Icon" style="height: 40px; width: auto;">
+</a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                        <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
@@ -103,7 +106,7 @@ if(isset($_POST['submit']))
    
   </div>
   <div class="form">
-    <h2>Login to your account</h2>
+    <h2>Login To Your Account</h2>
 	  <span style="color:red;"><?php echo $message; ?></span> 
    <span style="color:green;"><?php echo $success; ?></span>
     <form action="" method="post">
